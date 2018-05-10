@@ -9,3 +9,7 @@
 .darkestBG {
     background: #333;
 }
+
+.captionBG {
+    background: rgba(100, 100, 100, 0.7);
+}

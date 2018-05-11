@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Javascript Sandbox</title>
+        <link rel='stylesheet' href='styles/main.css'>
+        <link rel="stylesheet" href="styles/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/grid.css">
+        <link rel="shortcut icon" href="assets/favicon.png">
+    </head>
+    <body>
+        <header class="anavbar">
+            <!-- Navigation bar -->
+            <div class='container' id="nav-placeholder"></div>
+            <!-- End of Navigation bar -->
+        </header>
+
+        </div>
+
+        <footer class="container pt-4 my-md-5 pt-md-5 border-top">
+            <!-- Footer -->
+            <div class="row" id="footer-placeholder"></div>
+            <!-- End footer -->
+        </footer>
+
+        <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+        <script src="scripts/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <!-- Scripts below -->
+        <script>
+            $(function(){
+                $("#nav-placeholder").load('navbar.html');
+            });
+        </script>
+        <script>
+            $(function(){
+                $("#footer-placeholder").load('footer.html');
+            });
+        </script>
+        <script src="/scripts/JSInfoAlertScript.js"></script>
+    </body>
+</html>

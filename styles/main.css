@@ -18,3 +18,11 @@
     text-align: center;
     margin: 3rem 0 1.5rem 0;
 }
+
+#register-button {
+    transition: all 1s;
+}
+
+#register-button:hover {
+    transform: scale(1.1)
+}

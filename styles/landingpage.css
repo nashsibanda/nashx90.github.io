@@ -1,0 +1,29 @@
+body, html {
+    background-color: #b1b4b9;
+    height: 100%;
+    font-family: 'Crimson Text', serif;
+}
+
+#landing-bg {
+    background-image: url("/assets/jphome.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#landing-title {
+    position: relative;
+    left: 6%;
+    top: 40%;
+}
+
+.landing-enter-btn {
+    background-color: dimgray;
+    border-color: #555;
+    font-family: 'Poiret One', cursive;
+}
+
+#mci_embed_signup {
+    margin-top: 0.5rem;
+}
